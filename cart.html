@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bread</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <section class="header">
+        <a href="#"><i class="fa-solid fa-bread-slice" class="main-logo"><span class="logo-title"> Bread</span></i></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a class="active" href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <a href="#" id="close"><i class="fa-solid fa-x"></i></a>
+            </ul>
+        </div>
+
+        <div id="ipad">
+            
+            <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+            <i class="fa-solid fa-bars" id="bar"></i>
+        </div>
+
+    </section>
+
+    <section id="page-container" class="cart-header">
+            <h1>#Cart</h1>
+    </section> 
+
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="fa-solid fa-circle-xmark"></i></a></td>
+                    <td><img src="images/matcha latte.jpg" alt=""></td>
+                    <td>Matcha Latte</td>
+                    <td>1.40€</td>
+                    <td><input type="number" value="1"></td>
+                    <td>1.40€</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fa-solid fa-circle-xmark"></i></a></td>
+                    <td><img src="images/matcha tea 2.jpg" alt=""></td>
+                    <td>Matcha Tea</td>
+                    <td>1.20€</td>
+                    <td><input type="number" value="1"></td>
+                    <td>1.20€</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fa-solid fa-circle-xmark"></i></a></td>
+                    <td><img src="images/Mochis.jpg" alt=""></td>
+                    <td>Mochis</td>
+                    <td>0.80€</td>
+                    <td><input type="number" value="1"></td>
+                    <td>0.80€</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter Your Coupon">
+                <button type="button" class="coupon-button">Apply</button>
+            </div>
+        </div>
+
+
+        <div id="subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>3.40€</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>3.40€</strong></td>
+                </tr>
+            </table>
+            <button>Proceed to checkout</button>
+        </div>
+
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <a href="#" class="main-link"><i class="fa-solid fa-bread-slice" id="main-logo"><span class="logo-title"> Bread</span></i></a>
+            <h4 class="contact-title">Contact</h4>
+            <p class="contact-elements"><strong>Address:</strong> 244 Welington Road, Str.3, Bayern</p>
+            <p class="contact-elements"><strong>Phone:</strong> +333 33333 33333</p>
+            <p class="contact-elements"><strong>Hours:</strong> 8:00am - 18:00, Mon - Sat</p>
+            <div class="follow">
+                <h4 class="follow-title">Follow us</h4>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook" id="icon-element"></i>
+                    <i class="fa-brands fa-twitter" id="icon-element"></i>
+                    <i class="fa-brands fa-instagram" id="icon-element"></i>
+                    <i class="fa-brands fa-youtube" id="icon-element"></i>
+                    <i class="fa-brands fa-tiktok" id="icon-element"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4 class="about-title">About</h4>
+            <a href="#" class="about-elements">About us</a>
+            <a href="#" class="about-elements">Delivery Information</a>
+            <a href="#" class="about-elements">Privacy Policy</a>
+            <a href="#" class="about-elements">Terms & Conditions</a>
+            <a href="#" class="about-elements">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4 class="account-title">My Account</h4>
+            <a href="#" class="account-elements">Sign In</a>
+            <a href="#" class="account-elements">View Cart</a>
+            <a href="#" class="account-elements">My Wishlist</a>
+            <a href="#" class="account-elements">Track My Order</a>
+            <a href="#" class="account-elements">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4 class="install-title">Install App</h4>
+            <p class="install-p">From App Store or Google Play</p>
+            <div class="row">
+                <img src="images/app store.png" width="190px" height="80px">
+                <img src="images/play store.png" width="190px" height="80px">
+                <p class="pay-p">Secured Payment Gateways </p>
+                <img src="images/visa.png" width="80px" height="20px" />
+                <img src="images/paypal.jpg" width="80px" height="20px" />
+                <img src="images/mastercard.png" width="80px" height="20px" />
+
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p class="cr-element">PrivacyPolicies.com © 2002 - 2024 Alle Rechte vorbehalten.</p>
+        </div>
+
+    </footer>
+
+
+
+</body>
+<script src="script.js"></script>
+</html>
